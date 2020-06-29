@@ -16,7 +16,6 @@ public class MainJAva {
 
 
     public static void main(String[] args) {
-        Start.printName();
 
     }
 
