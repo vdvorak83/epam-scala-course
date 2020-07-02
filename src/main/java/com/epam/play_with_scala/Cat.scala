@@ -14,8 +14,6 @@ case class Cat(var age:Int,var string: String="") extends Animal {
 object Cat {
   def apply(name: String): Cat = new Cat(name.length)
 
-  def unapply(arg: Cat): Option[(Int, String)] = {
-    ???
-  }
+
 
 }

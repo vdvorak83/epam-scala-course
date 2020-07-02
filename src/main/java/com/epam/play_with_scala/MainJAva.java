@@ -5,6 +5,14 @@ package com.epam.play_with_scala;
  */
 public class MainJAva {
 
+    interface A {
+
+
+
+        default void b(){
+            System.out.println(123);
+        }
+    }
 
 
 
