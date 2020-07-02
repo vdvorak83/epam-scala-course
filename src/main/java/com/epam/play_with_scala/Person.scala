@@ -3,26 +3,15 @@ package com.epam.play_with_scala
 /**
  * @author Evgeny Borisov
  */
-class Person(var name:String="John") {
+case class Person(private val json: String) {
 
-  println(123)
 
-  def abc(x:Int=12): Unit =println(123)
 
-  def init() = {
-    this.name=this.name.toUpperCase()
-    println("person was create with name: "+this.name)
+  def readProperyByNameFromJson(json: String, str: String): Any = {
+    10
   }
 
-  init()
 
+  val age = readProperyByNameFromJson(json, "")
 
-
-
-
-  override def toString: String = {
-    return "sajdalsjhgldsj"
-  }
-
-  println("987")
 }
